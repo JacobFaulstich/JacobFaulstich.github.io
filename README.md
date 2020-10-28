@@ -1,2 +1,2 @@
-# jfaulstic76.github.io
+# JacobFaulstich.github.io
 Computer Science Principals Portfolio
