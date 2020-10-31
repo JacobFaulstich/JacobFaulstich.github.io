@@ -1,35 +1,53 @@
 body { background-color:rgb(16, 16, 100);
 margin: 0;
 }
-
+title { font:100;}
     p {color:white;}
    
     #Likes{color:rgb(255, 127, 80);} 
  
-    h1{
-        background-color: rgb(6, 157, 168);
-        text-align: center;
-        color:rgb(255,165,0);}
+  
     ul{color:rgb(255,255,255);}
     h2{color:rgb(255,255,255);}
     h3{color:rgb(0, 255, 0);}
     
-    .topnav {
-        overflow: hidden;
-        background-color:rgb(128,128,0);
+    .nav_bar {
+        background-color:rgb(47, 47, 230);
+        display:block;
+        overflow:hidden;
         }
-        .topnav a {
+        .nav_links{
+            width:100%;
+            overflow: hidden;
+        }
+
+        .nav_bar a {
+          display:block;
+          padding:10px 14px;
+          text-align:center;
+        text-decoration:none;
+        color: rgb(255, 255, 255);
         float: left;
-        color: #ffffff;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
         }
-        .topnav a:hover {
-            background-color: rgb(255,255,0);
-            color: rgb(0, 0, 0);
-            }
-            
+
+        .nav_links a:hover{
+            background-color:rgb(85, 15, 199);
+            color: rgb(255, 255, 255);
+            transition:.25s;
+
+        }
+        .active{
+            background-color:rgb(99, 99, 233);
+        }
+
+
+      
+            .title_bar{ background-color:rgb(10, 138, 138);
+            margin: auto;
+           padding: 0.8% 0;
+           text-align: center;
+           color: rgb(255,255,255);
+           font: 15px times new roman;
+            }      
            
       
