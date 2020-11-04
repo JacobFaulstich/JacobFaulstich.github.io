@@ -1,19 +1,25 @@
+/* This makes it where I import the font Anton from google  */
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+/* This makes it where the background color of my page is a dark blue */
 body { background-color:rgb(16, 16, 100);
 margin: 0;
 }
-title { font:100;}
-    p {color:white;}
-   
+/* This makes it where the text color of paragraphs is white */
+    p {color:rgb(255,255,255);}
+   /* This makes it where any thing with the class "likes" has the text color an orangeish */
     #Likes{color:rgb(255, 127, 80);} 
 
-  
+     /* This makes an unorganized list color white*/
     ul{color:rgb(255,255,255);}
+    /* This makes the font of my H1 headers to Anton*/
     h1{font-family: 'Anton', sans-serif;}
+    /* This makes the color of my H2 header white */
     h2{color:rgb(255,255,255);}
+    /* This makes the color of my H3 headers light green */
     h3{color:rgb(0, 255, 0);}
    
+  /* This makes my image shrink with the page */
     img{
         display:block;
         width: 90%;
@@ -21,7 +27,8 @@ title { font:100;}
         margin:auto;
         
     }
-    
+     /* This makes the background color of the bar for navigation blue
+     It also make the bar go all the way across my screen*/
     .nav_bar {
         background-color:rgb(47, 47, 230);
         display:block;
@@ -31,7 +38,7 @@ title { font:100;}
             width:100%;
             overflow: hidden;
         }
-
+ /* This makes it so that the text corresponding to different pages of my website are in boxes and the text is white, it also make it go to the left hand side of the page.  */
         .nav_bar a {
           display:block;
           padding:10px 14px;
@@ -40,19 +47,20 @@ title { font:100;}
         color: rgb(255, 255, 255);
         float: left;
         }
-
+/* This makes it so when I have my mouse hovering over a  */
         .nav_links a:hover{
             background-color:rgb(85, 15, 199);
             color: rgb(255, 255, 255);
             transition:.25s;
 
         }
+        /* This makes it so when I am on the page the box corresponding to that page is purple */
         .active{
             background-color:rgb(99, 99, 233);
         }
 
 
-      
+      /* This makes it so that I have a bar on the top with a teal color and it contains centered text that is white. */
             .title_bar{ background-color:rgb(10, 138, 138);
             margin: auto;
            padding: 0.8% 0;
@@ -60,24 +68,30 @@ title { font:100;}
            color: rgb(255,255,255);
            font: 15px times new roman;
             }      
+
+            /* This allows me to have a multi colomun layout. */
             .row {
                 display:flex;
             }
+            /* This allows me to have one of the colomuns take up 40% of the page */
            .col40 {
                flex:4;
                padding: 0 20px;
                margin: auto;
            }
+           /* This allows me to have one of the colomuns take up 50% of the page */
            .col50 {
             flex:5;
             padding: 0 20px;
             margin: auto;
         }
+        /* This allows me to have one of the colomuns take up 60% of the page */
         .col60 {
             flex:6;
             padding: 0 20px;
             margin: auto;
         }
+        /* This allows me to have one of the colomuns take up 100% of the page */
         .col100 {
             flex:100;
             padding: 0 20px;
