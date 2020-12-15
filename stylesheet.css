@@ -1,5 +1,6 @@
-/* This makes it where I import the font Anton from google  */
+/* This makes it where I import the fonts from google  */
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 
 /* This makes it where the background color of my page is a dark blue */
 body { background-color:rgb(16, 16, 100);
@@ -115,4 +116,13 @@ padding-bottom: 2.5rem;
             height: 2.5rem;
         }
        
-      
+        table, th, td {
+            border: 1px solid rgb(255, 255, 255);
+          }
+        table {max-width:100%;
+        }
+        th{
+            color:rgb(255, 255, 255);
+            font-family: 'Langar', cursive;
+        }
+        
